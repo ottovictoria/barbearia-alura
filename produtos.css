@@ -2,10 +2,16 @@ hearder {
      background: #BBBBBB;
  }
 
- nav li {
- 	display: inline;
- 	margin: 0 0 0 15px;
+ nav {  
+     position: absolute;
+     top: 110px;
+     right: 0;
  }
+
+ nav li { 
+     display: inline;
+     margin: 0 0 0 15px;
+  }
 
  nav a {
  	text-transform: uppercase;
